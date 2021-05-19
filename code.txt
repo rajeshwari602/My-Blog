@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="pro_css.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 900px;
+  position: relative;
+  margin: auto;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 950) {
+  .text {font-size: 11px}
+}
+</style>
+</head>
+<body>
+
+
+<div class="slideshow-container">
+
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 4</div>
+  <img src="agri2.jpeg"height="400px"width:"950" >
+
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 4</div>
+  <img src="agri3.jpeg" height="400px"width:"950">
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3/ 4</div>
+  <img src="agri4.jpeg"height="400px"width:"950" >
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">4 / 4</div>
+  <img src="agri5.jpeg" height="400px"width:"950">
+</div>
+
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span>
+  <span class="dot"></span>
+  <span class="dot"></span>
+  <span class="dot"></span>
+
+</div>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 3000); // Change image every 2 seconds
+}
+</script>
+<h1>AGRICULTURE</h1>
+<p class="center">Agriculture is the science and art of cultivating plants and livestock.
+   Agriculture was the key development in the rise of sedentary human civilization,
+    whereby farming of domesticated species created food surpluses that enabled people to live in cities.
+  </p>
+  <img src="saying.png" height="300"width="500">
+<h3>SOME CROPS AND THEIR CULTIVATION</h3>
+<ul>
+<h4> <li>Rice</li></h4>
+     <p>Rice, edible starchy cereal grain and the plant by which it is produced.
+       Roughly one-half of the world population, including virtually all of East and Southeast Asia, is wholly dependent upon rice as a staple food;
+       95 percent of the world’s rice crop is eaten by humans.
+     </p>
+
+     <p>The principal rice-producing countries are China, India, Japan, Bangladesh, Indonesia, Thailand, and Myanmar (Burma).
+        Other important producers are Vietnam, Brazil, South Korea, the Philippines, and the United States.
+        In the late 20th century the world rice crop averaged between 800 billion and 950 billion pounds annually and was cultivated on an average of about 358 million acres (145 million hectares).
+      </p>
+      <img src="rice.jpg" height="250" width="550">
+     <p>The harvested rice kernel, known as paddy, or rough, rice, is enclosed by the hull, or husk.
+        Milling usually removes both the hull and bran layers of the kernel, and a coating of glucose and talc is sometimes applied to give the kernel a glossy finish.
+         Rice that is processed to remove only the husks, called brown rice, contains about 8 percent protein and small amounts of fats and is a source of thiamine, niacin, riboflavin, iron, and calcium.
+          Rice that is milled to remove the bran as well is called white rice and is greatly diminished in nutrients.
+           When white rice forms a major portion of the diet, there is a risk of beriberi, a disease resulting from a deficiency of thiamine and minerals.
+            Parboiled white rice is processed before milling to retain most of the nutrients, and enriched rice has iron and B vitamins added to it.
+            Rice is cooked by boiling. It is eaten alone and in a great variety of soups, side dishes, and main dishes in Oriental, Middle Eastern, and many other cuisines.
+          </p>
+
+<h4>  <li>Wheat</li></h4>
+       <p>Wheat is a grass widely cultivated for its seed, a cereal grain which is a worldwide staple food.
+         The many species of wheat together make up the genus Triticum; the most widely grown is common wheat (T. aestivum).
+         The archaeological record suggests that wheat was first cultivated in the regions of the Fertile Crescent around 9600 BCE.
+         Botanically, the wheat kernel is a type of fruit called a caryopsis.
+       </p>
+       <img src="wheat.png">
+       <p>The nutritional composition of the wheat grain varies somewhat with differences in climate and soil.
+         On an average, the kernel contains 12 percent water, 70 percent carbohydrates, 12 percent protein, 2 percent fat, 1.8 percent minerals, and 2.2 percent crude fibres.
+          Thiamin, riboflavin, niacin, and small amounts of vitamin A are present, but the milling processes removes most of those nutrients with the bran and germ.
+        </p>
+        <p>The greatest portion of the wheat flour produced is used for breadmaking.
+          Wheats grown in dry climates are generally hard types, having protein content of 11–15 percent and strong gluten (elastic protein).
+           The hard type produces flour best suited for breadmaking. The wheats of humid areas are softer, with protein content of about 8–10 percent and weak gluten.
+            The softer type of wheat produces flour suitable for cakes, crackers, cookies, and pastries and household flours. Durum wheat semolina (from the endosperm) is used for making pastas, or alimentary pastes.
+        </p>
+<h4>  <li>Sugarcane</li></h4>
+        <p>Sugarcane is the world's largest crop by production quantity, with 1.8 billion tonnes produced in 2017, with Brazil accounting for 40% of the world total.
+          In 2012, the Food and Agriculture Organization estimated it was cultivated on about 26 million hectares (64 million acres), in more than 90 countries.
+        </p>
+        <img src="sugarcane.png" height="250" width="550">
+         <p>Sugarcane is grown in various kinds of soils, such as red volcanic soils and alluvial soils of rivers.
+            The ideal soil is a mixture of sand, silt, and clay particles, with a measure of organic material.
+             The land is plowed and left to weather for a time before subsoiling (stirring up the subsoil) is carried out.
+              The crop demands a well-drained soil, and drains—on the surface, underground, or both—are provided according to the topographic conditions of the fields.
+            </p>
+         <p>To attain good yields, sugarcane requires 2,000 to 2,300 mm (80 to 90 inches) of water during the growing period.
+            When precipitation is deficient, irrigation, either by spraying or by applying water in furrows, can make up for the deficiency.
+            The growth period for cane crops varies considerably according to the region: 8–9 months in Louisiana, U.S.; 15 months in Australia and Taiwan; 18–22 months in Hawaii, South Africa, and Peru.
+             The lowest temperature for good cane-plant growth is about 20 °C (68 °F). Continuous cooler temperature promotes the maturation of cane, as does withholding water. Harvesting and milling begin in the dry, relatively cool season of the year and last for five to six months
+             </p>
+</ul>
+
+<h2>Agriculture Websites in India</h2>
+<div class="row content">
+<table class="table table-striped">
+<tr><th>Agriculture Websites</th><th>URL</th></tr>
+<tr><td>Department of Agriculture, Cooperation and Farmers Welfare</td><td><a href="http://agricoop.nic.in/" target="_blank">http://agricoop.nic.in/</a></td></tr>
+<tr><td>For Indian Agriculture College/Universities News</td><td><a href="http://agricollegenews.com/" target="_blank">http://agricollegenews.com/ </a></td></tr>
+<tr><td>Agricultural and Processed Food Export Development Authority</td><td><a href="http://apeda.in/apedawebsite/" target="_blank">http://www.apeda.in</a></td></tr>
+<tr><td>UpAgriculture.org</td><td><a href="http://www.upagriculture.org/" target="_blank">http://www.upagriculture.org/</a></td></tr>
+<tr><td>For Agriculture Insurance</td><td><a href="http://agriinsurance.com/" target="_blank">http://agriinsurance.com/</a></td></tr>
+<tr><td>For AgTech News</td><td><a href="http://agtechnews.com/" target="_blank">http://agtechnews.com/ </a></td></tr>
+<tr><td>Ministry of Rural Development</td><td><a href="http://rural.nic.in" target="_blank">http://rural.nic.in</a></td></tr>
+<tr><td>For Indian Agriculture Retailers</td><td><a href="http://agriretailers.com/" target="_blank">http://agriretailers.com/</a></td></tr>
+<tr><td>Indian Society of Agribusiness Professionals</td><td><a href="http://www.isapindia.org/isap/" target="_blank">http://www.isapindia.org/isap/</a></td></tr>
+<tr><td>Farmers’ Portal</td><td><a href="http://farmer.gov.in/" target="_blank">http://farmer.gov.in/</a></td></tr>
+<tr><td>For Tractor News, Tractor Loans, Tractor Insurance</td><td><a href="http://tractorbuyersguide.in/" target="_blank">http://tractorbuyersguide.in/</a></td></tr>
+<tr><td>For Agriculture Jobs</td><td><a href="http://www.indiaagrijobs.com/" target="_blank">http://www.indiaagrijobs.com/</a></td></tr>
+<tr><td>india.gov.in National Portal of India</td><td><a href="http://india.gov.in/topics/agriculture" target="_blank">http://india.gov.in/topics/agriculture</a></td></tr>
+<tr><td>mKisan (Help through mobile messaging for farmers)</td><td><a href="http://mkisan.gov.in/" target="_blank">http://mkisan.gov.in/</a></td></tr>
+</table>
+</div>
+
+
+</body>
+</html>
+
+
+
+
+
+body
+{
+  font-family: 'Oswald', sans-serif;
+  background-color:#ffff99;
+  color: #3d5c5c;
+
+  border: 30px solid #ffa64d;
+  margin:10px;
+
+}
+p.center
+{
+  text-align: center;
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
